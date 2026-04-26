@@ -7,3 +7,6 @@ tsconfig.tsbuildinfo
 # phase execution outputs
 phases/**/phase*-output.json
 phases/**/step*-output.json
+./DS_Store/
+.env
+.DS_Store
