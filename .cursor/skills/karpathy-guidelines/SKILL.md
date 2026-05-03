@@ -1,16 +1,13 @@
 ---
 name: karpathy-guidelines
 description: >-
-  Behavioral guidelines to reduce common LLM coding mistakes. Use when writing,
-  reviewing, or refactoring code to avoid overcomplication, make surgical changes,
-  surface assumptions, and define verifiable success criteria.
+  Mirror of workspace default style — always read CLAUDE.md 「에이전트 행동 가이드」
+  first. Karpathy-derived English reference for Cursor triggers; not optional-on-use-only behavior.
 ---
 
-# Karpathy Guidelines
+# Karpathy Guidelines (보조 채널)
 
 Behavioral guidelines to reduce common LLM coding mistakes, derived from Andrej Karpathy's observations on LLM coding pitfalls.
-
-Merge with **`CLAUDE.md`** (프로젝트별 규칙 및 한글 요약 섹션) as needed.
 
 **Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.
 
@@ -74,4 +71,4 @@ Define success criteria. Loop until verified.
 
 ---
 
-*License: MIT*
+_License: MIT_
