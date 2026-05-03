@@ -6,8 +6,7 @@
 - `/docs/ARCHITECTURE.md`
 - `/docs/ADR.md`
 - (웹/UI 이슈가 있으면) `/docs/UI_GUIDE.md`
-
-`API_CONVENTIONS.md` 등 이 저장소에 **없는 파일**은 건너뛴다.
+- (선택) 리뷰 관점 배경으로 `/karpathy-guidelines` — 요청 범위 밖 과설계·비외과 변경이 없는지
 
 ## 변경분 확인
 

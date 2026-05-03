@@ -7,6 +7,7 @@
 | 파일 | 슬래시 | 역할 한 줄 |
 |------|--------|------------|
 | `workflow.md` | (메타) | 파이프라인 총정리 — 아래 순서의 기준 |
+| `karpathy-guidelines.md` | `/karpathy-guidelines` | LLM 과설계 방지 · 외과적 변경 · 검증 가능한 목표(Karpathy) |
 | `review.md` | `/review` | 변경분을 `CLAUDE.md`·`docs/*`로 체크리스트 리뷰 |
 | `fix.md` | `/fix` | Troubleshooting — 버그·에러·재현 실패 시 흐름 |
 | `refactor.md` | `/refactor` | 구조·성능·가독성 리팩터, 보통 `/review` 다음 |
@@ -28,6 +29,7 @@
 
 - `/fix`·`/refactor` 직후에는 **가능하면** `/test`.
 - `/review`에서 **Critical ≥ 1**이면 먼저 `/fix` 또는 `/refactor`로 정리.
+- 코드 작성·리뷰 전 **배경으로** `/karpathy-guidelines` 또는 `CLAUDE.md`의 에이전트 행동 가이드를 떠올린다 (슬래시 생략 가능).
 
 ## `/commit` 시 주의 (요약)
 
